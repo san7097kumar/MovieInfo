@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Cormorant+Unicase|Open+Sans" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+<style media="screen">
+body
+{
+margin:0;
+padding: 0;
+  background:url(img/wel.jpeg) no-repeat center center fixed;
+  -webkit-background-size:cover;
+  background-size: cover;
+
+    font-family: 'Open Sans', sans-serif;
+
+    font-family: 'Cormorant Unicase', serif;
+
+
+}
+h4{
+  color:#fff;
+}
+a{
+  color:#fff;
+}
+
+#poster img,#poster img{
+  width:100%;
+}
+@media(min-width:960px)
+{
+#poster .col-md-4 .well
+{
+  height: 490px;
+}
+#poster .col-md-4 img{
+  height:340px;
+}
+}
+#hovereff1 :hover
+{
+background-color:	rgb(51, 156, 255);
+-ms-transform: scale(1.05); /* IE 9 */
+ -webkit-transform: scale(1.05); /* Safari 3-8 */
+ transform: scale(1.05);
+ box-shadow: 0 0 5px 2px #ff8080;
+   line-height: 1.4;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+}
+
+
+</style>
+  </head>
+  <body>
+
+    <!--navbar -->
+   <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+   <!--brand-->
+     <a href="#" class="navbar-brand">
+   <img src="icon2.png" alt="" height="60px" width="68px">
+       Movies Now
+       </a>
+     <!-- toggle/collapsible button-->
+     <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#coll" name="button">
+   <span class="navbar-toggler-icon"></span>
+     </button>
+     <div class="collapse navbar-collapse" id="coll">
+     <ul class="navbar-nav">
+
+       <li class="nav-item"></li>
+       <a href="#" class="nav-link con"></a>
+     </li>
+
+     <li class="nav-item"></li>
+     <a href="#" class="nav-link con"></a>
+   </li>
+
+   <li class="nav-item"></li>
+   <a href="#" class="nav-link con"></a>
+   </li>
+     </ul>
+   </div>
+   </nav>
+<br>
+<div class="container">
+  <div class="jumbotron bg-light ">
+    <h2 class="text-center">Search For Any Movie</h2>
+    <form class="" id="searchForm" action="index.html" method="post">
+      <input type="text" class="form-control" placeholder="Search Any Moives" name="" value="" id="searchText">
+
+    </form>
+  </div>
+</div>
+
+
+<div class="container ">
+ <div id="movies" class="row jumbotron">
+
+ </div>
+</div>
+
+
+
+<div class="container " id="hideone">
+<div class="row jumbotron bg-dark" id="poster">
+
+<div class="col-md-4">
+<div class="well text-center" id="hovereff1">
+
+<img src="img/war.jpg" class="img-thumbnail" >
+<h4>Avenger Infinity war</h4>
+<a onclick="" class="btn btn-primary" href="#">Movie Details</a>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="well text-center" id="hovereff1">
+
+<img src="img/barath.jpg" class="img-thumbnail" >
+<h4>Barath Ani Nenu</h4>
+<a onclick="" class="btn btn-primary" href="#">Movie Details</a>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="well text-center" id="hovereff1">
+
+<img src="img/surya.jpg" class="img-thumbnail" >
+<h4>Naa Peru Surya Naa Illu India</h4>
+<a onclick="" class="btn btn-primary" href="#">Movie Details</a>
+</div>
+</div>
+
+</div>
+</div>
+
+#movies img,#movie img{
+  width:100%;
+}
+@media(min-width:960px)
+{
+#movies .col-md-3 .well
+{
+  height: 390px;
+}
+#movies .col-md-3 img{
+  height:240px;
+}
+}
+
+
+    <script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+crossorigin="anonymous"></script>
+
+ <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="main.js"></script>
+  </body>
+</html>

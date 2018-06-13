@@ -1,0 +1,37 @@
+#movies img,#movie img{
+  width:100%;
+}
+@media(min-width:960px)
+{
+#movies .col-md-3 .well
+{
+  height: 390px;
+}
+#movies .col-md-3 img{
+  height:240px;
+}
+}
+#hovereff img:hover
+{
+background-color:	rgb(51, 156, 255);
+-ms-transform: scale(1.05); /* IE 9 */
+ -webkit-transform: scale(1.05); /* Safari 3-8 */
+ transform: scale(1.05);
+ box-shadow: 0 0 5px 2px #282a2d;
+   line-height: 1.4;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+}
+#hovereff2 :hover
+{
+  background-color:	rgb(51, 156, 255);
+  -ms-transform: scale(1.0); /* IE 9 */
+   -webkit-transform: scale(1.0); /* Safari 3-8 */
+   transform: scale(1.0);
+   box-shadow: 0 0 5px 2px #282a2d;
+     line-height: 1.4;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+}

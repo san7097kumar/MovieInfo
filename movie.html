@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<style media="screen">
+body
+{
+margin:0;
+padding: 0;
+ background:url(img/wel.jpeg) no-repeat center center fixed;
+  -webkit-background-size:cover;
+  background-size: cover;
+font-family: 'Playfair Display', serif;
+}
+</style>
+  </head>
+  <body>
+
+    <!--navbar -->
+   <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+   <!--brand-->
+     <a href="#" class="navbar-brand">
+   <img src="icon2.png" alt="" height="60px" width="68px">
+       Movies Now
+       </a>
+     <!-- toggle/collapsible button-->
+     <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#coll" name="button">
+   <span class="navbar-toggler-icon"></span>
+     </button>
+     <div class="collapse navbar-collapse" id="coll">
+     <ul class="navbar-nav">
+
+       <li class="nav-item"></li>
+       <a href="#" class="nav-link con"></a>
+     </li>
+
+     <li class="nav-item"></li>
+     <a href="#" class="nav-link con"></a>
+   </li>
+
+   <li class="nav-item"></li>
+   <a href="#" class="nav-link con"></a>
+   </li>
+     </ul>
+   </div>
+   </nav>
+<br>
+
+<div class="container">
+<div class=" jumbotron">
+  <div id="movie" class="well">
+  </div>
+</div>
+</div>
+
+    <script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+crossorigin="anonymous"></script>
+
+ <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="main.js"></script>
+
+<script type="text/javascript">
+  getMovie();
+</script>
+  </body>
+</html>
